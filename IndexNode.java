@@ -455,5 +455,4 @@ public class IndexNode
     copy.read( buffer , 0 ) ;
     System.out.println( copy.toString() ) ;
   }
-
 }
