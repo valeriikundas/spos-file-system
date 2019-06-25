@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "chown",
+            "request": "launch",
+            "mainClass": "chown",
+            "args": "555 /home/a.txt"
+        },
+        {
+            "type": "java",
+            "name": "find /",
+            "request": "launch",
+            "mainClass": "find",
+            "args": "/"
+        },
+        {
+            "type": "java",
+            "name": "mkdir",
+            "request": "launch",
+            "mainClass": "mkdir",
+            "args": "/abc"
+        },
+        {
+            "type": "java",
+            "name": "ls /",
+            "request": "launch",
+            "mainClass": "ls",
+            "args": "/"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
