@@ -1,0 +1,11 @@
+block_size: 64 bytes
+blocks: 8
+super_blocks: 1
+free_list_blocks: 64 bytes/block * 8 bits/byte = 512 bits/block; 1
+inode_blocks: 1 node=64 bytes; 1 inode/block, X inode_blocks = 3
+data_blocks: X = 3
+blocks_total: 8
+
+X+X+1+1=8
+
+directory entries will fit in a block: 64 / 32 = 2
